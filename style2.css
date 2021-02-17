@@ -1,4 +1,47 @@
 .grid-container {
     display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
     
-}
+  }
+
+  .artistalbum {
+      margin: auto;
+      text-align: center;
+      font-family: 'Crimson Text', serif;
+  }
+  
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.1em;
+  }
+
+  .section1 {
+    /* background-color: pink; */
+    max-width: 400px;
+    padding: 40px 20px 20px 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  
+  .section2 {
+    /* background-color: green; */
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    }
+  
+  .section3 {
+    /* background-color: orange; */
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+  }
+
+  img {
+      min-width: 200px;
+      max-width: 100%;
+  }
